@@ -1,18 +1,12 @@
-import { ScrollView } from 'react-native';
+import { View } from 'react-native';
 
-import Login from './pages/login';
-import Ibge from './pages/ibge';
 
 export default function Index(){
   return(
 
-    <ScrollView>
+    <View>
 
-      <Login/>
-
-      <Ibge/>
-
-    </ScrollView>
+    </View>
 
   );
 }
